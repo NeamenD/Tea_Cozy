@@ -1,0 +1,174 @@
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+
+}
+
+.teallogo{
+    padding: 10px;
+    height: 50px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    color: seashell;
+    text-align: left;
+    z-index: 1;
+}
+
+nav{
+    text-align: right;
+    flex-grow: 1;
+    color: seashell;
+    font-family:Helvetica, sans-serif;
+}
+
+nav span{
+    display:inline-block;
+    padding: 20px 10px;
+    text-decoration: underline;
+}
+
+.tea img{
+    padding-top: 20px;
+    width: 300px;
+    height: 200px;
+    display: inline;
+    align-items: center;
+    display: block;
+    justify-content: center;
+
+    
+}
+.tea h2{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 5px;
+    padding-top: 80px;
+    padding-bottom: 0px;
+    color: seashell;
+    font-family:Helvetica, sans-serif;
+}
+
+.tea h4{
+    text-align: center;
+    padding-bottom: 0px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    color: seashell;
+    font-family:Helvetica, sans-serif;
+    
+}
+
+#mission{
+    height: 700px;   
+    background-image: url(resurse/img-mission-background.jpg);
+    
+}
+
+
+.content{
+    background-color: black;
+    width: 2500px;
+    position: absolute;
+    text-align: center;
+    margin-top: 250px;
+    color: seashell;
+    font-family:Helvetica, sans-serif;
+    
+}
+.container .missionbackground{
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.item{
+    padding: 0px 10px;
+    padding-top: 100px;
+}
+.tea h2{
+    padding-top: 0px;
+    
+}
+.tea .container .item{
+    text-align: center;
+    max-width: 1000px;
+    padding-top: 0px;    
+}
+
+
+.item span{
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: seashell;
+    font-family:Helvetica, sans-serif;
+    
+}
+
+/* location */
+
+.locations{
+    background-image:url("resurse/img-locations-background.jpg");
+    height: 500px;
+    padding-top: 70px;
+    margin-top: 40px;
+}
+
+.locations .container{
+    margin: auto;
+    width: 1100px;
+    
+}
+.locations h2{
+    margin-top: -30px;
+    padding: 15px;
+}
+
+.location {
+    opacity: 1;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 40px;
+    color: seashell;
+    font-family:Helvetica, sans-serif;
+    font-size: 22px;
+    
+    
+}
+
+/* contact info */
+#contact{
+    height: 200px;
+    text-align: center;
+    
+   
+}
+
+footer{
+    text-align: left;
+    padding-left: 20px;
+}
